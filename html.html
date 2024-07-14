@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<htmlwww.w3.org/1999/xhtml"://http="xmlns  xml:lang="fa" dir="rtl">
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<style>
+
+body{
+    margin: 30px;
+    font-size: 25px;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+}
+#result{
+    width: 100%;
+    display: none;
+}
+table{
+    width: 100%;
+}
+table tr td{
+    border: 1px solid red;
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+
+#totalprice{
+    margin-top: 40px;
+}
+
+#getting-item{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+#getting-item input {
+    font-size: 30px;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+    border:3px solid #444;
+    outline: none;
+}
+#getting-item button{
+    color: #fff;
+    background: #444;
+    font-size: 50px;
+    border: 0 none;
+    border-radius: 10px;
+    padding: 15px 40px;
+}
+#getting-item #end-button{
+    background: red;
+    color: #fff;
+    font-size: 50px;
+    border: 0 none;
+    border-radius: 10px;
+    padding: 15px 40px;
+    margin-top: 50px;
+}
+</style>
+</head>
+<body>
+    <section id="result">
+        <table id="table">
+            <tr>
+              <th>اسم</th>
+              <th>کد</th>
+              <th>فی</th>
+              <th>قیمت کل</th>
+              <th>مواد مصرفی کل</th>
+              <th>وزن کل</th>
+              <th>قیمت خالص</th>
+              <th>تعداد</th>
+            </tr>
+          </table>
+          <div id="totalprice"></div>
+          <div id="totalmaterialprice"></div>  
+          <div id="totalweight"></div>
+          <div id="netprice"></div>
+    </section>
+    <section id="getting-item">
+        <div id="output"></div>
+        <input type="text" id="search" placeholder="کد محصول را وارد کنید">
+        <input type="text" id="times" placeholder="تعداد را وارد کنید">
+
+        <input type="text" id="newprice" placeholder="قیمت جدید برای محصول">
+        <button id="submit-button">SUBMIT</button>
+        <button id="back-button">BACK</button>
+        <button id="end-button">END</button>
+    </section>
+<script src="main.js"></script>
+</body>
+</html>
+

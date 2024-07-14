@@ -1,0 +1,37 @@
+[
+    {
+        "name": "شمع دونی",
+        "code": 1,
+        "price":1500,
+        "weight":500,
+        "material": 1000
+    },
+    {
+        "name": "کاسه",
+        "code": 2,
+        "price":1500,
+        "weight":500,
+        "material": 1000
+    },
+    {
+        "name": "3شمع دونی",
+        "code": 3,
+        "price":1500,
+        "weight":500,
+        "material": 1000
+    },
+    {
+        "name": "2شمع دونی",
+        "code": 4,
+        "price":1500,
+        "weight":500,
+        "material": 1000
+    },
+    {
+        "name": "1شمع دونی",
+        "code": 5,
+        "price":1500,
+        "weight":500,
+        "material": 1000
+    }
+  ]
